@@ -90,6 +90,7 @@
 }
 
 .social-btn:hover { transform: translateY(-4px) scale(1.1); box-shadow: 0 8px 20px rgba(0,0,0,0.2); }
+.social-btn:active { transform: translateY(0) scale(1); box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
 .social-btn:hover svg { transform: scale(1.15); }
 
 .github::before { background: linear-gradient(135deg, #333, #555); }
@@ -124,7 +125,6 @@
 
 .btn:hover::before { left: 100%; }
 .btn:hover { transform: translateY(-2px) scale(1.05); box-shadow: 0 8px 25px rgba(102,126,234,0.4); }
-.btn:active { transform: translateY(0) scale(1); }
 
 .contact-info {
   margin-top: 0.5rem;
