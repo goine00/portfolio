@@ -4,7 +4,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-width: min(86vw, 92w);
+width: min(30vw, 60vw);
   min-height: 360px;
   background: var(--card-bg);
   border-radius: 24px;
