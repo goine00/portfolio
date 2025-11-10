@@ -1,18 +1,28 @@
+/* Base & Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Funnel Sans", sans-serif;
-  font-optical-sizing: auto;
-}
-
-body, html {
-  height: 100%;
-  overflow: hidden;
-  background: #0a0a0a;
-
-  user-select: none;
   -webkit-user-select: none;
   -moz-user-select: none;
-  -ms-user-select: none;
+  user-select: none;
 }
+
+img {
+  -webkit-user-drag: none;
+  user-drag: none;
+  pointer-events: none;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  min-height: 100vh;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-dark);
+}
+
+

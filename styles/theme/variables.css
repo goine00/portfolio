@@ -1,0 +1,15 @@
+/* CSS Variables (Theme) */
+:root {
+  --primary-blue: #3b82f6;
+  --text-dark: #1f2937;
+  --text-light: #cbd5e1;
+
+  /* Glass/Frosted settings */
+  --card-bg: rgba(255, 255, 255, 0.8);
+  --card-border: rgba(255, 255, 255, 0.8);
+  --glass-blur: 18px;
+  --glass-bg: rgba(255, 255, 255, 0.08);
+  --glass-bg-hover: rgba(255, 255, 255, 0.16);
+}
+
+
